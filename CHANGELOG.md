@@ -3,4 +3,3 @@
 ==================
 
   * feat: Initial release
-  * Initial commit
