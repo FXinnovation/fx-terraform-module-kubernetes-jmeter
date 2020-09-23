@@ -14,7 +14,9 @@ No requirements.
 
 ## Providers
 
-No provider.
+| Name | Version |
+|------|---------|
+| random | n/a |
 
 ## Inputs
 
@@ -22,6 +24,8 @@ No input.
 
 ## Outputs
 
-No output.
+| Name | Description |
+|------|-------------|
+| this | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
