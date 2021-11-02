@@ -1,7 +1,8 @@
-x.x.x (not yet released)
+1.0.0 / 2021-11-02
 ========================
 
-* chore: bump pre-commit hooks
+  * (BREAKING) fix: replace the deprecated syntax for limits and requests in resource kubernetes_deployment
+  * chore: bump pre-commit hooks
 
 0.1.0 / 2020-09-18
 ==================

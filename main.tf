@@ -89,11 +89,11 @@ resource "kubernetes_deployment" "master" {
           args = ["master"]
 
           resources {
-            limits {
+            limits = {
               cpu    = var.master_resources_limits_cpu
               memory = var.master_resources_limits_memory
             }
-            requests {
+            requests = {
               cpu    = var.master_resources_requests_cpu
               memory = var.master_resources_requests_memory
             }
@@ -201,11 +201,11 @@ resource "kubernetes_deployment" "slave" {
           args = ["server"]
 
           resources {
-            limits {
+            limits = {
               cpu    = var.slave_resources_limits_cpu
               memory = var.slave_resources_limits_memory
             }
-            requests {
+            requests = {
               cpu    = var.slave_resources_requests_cpu
               memory = var.slave_resources_requests_memory
             }
